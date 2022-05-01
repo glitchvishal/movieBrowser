@@ -24,7 +24,7 @@ function Movie() {
         <img src={movie.Poster} alt={movie.Title}/>
         <h1>{ movie.Title } </h1>
         <p>{movie.Year}</p>
-        <p>{movie.Director}</p>
+        <p className="director">{movie.Director}</p>
         <p>{movie.Plot}</p>
         <p>{movie.Awards}</p>
         </>}

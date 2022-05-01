@@ -72,8 +72,14 @@ h1{
 
 .movie .movie-container>p{
     line-height: 1.5rem;
-    width: 400px;
-    margin: .5rem auto;
+    /* width: 400px; */
+    margin: .5rem .5rem;
+}
+
+.director{
+
+    font-weight: 700;
+
 }
 
 .movie .movie-container >img{
@@ -83,7 +89,7 @@ h1{
 }
 
 .movie .movie-container>button{
-    width: 50%;
+    width: 90%;
     height : 1.8rem;
     background-color:  rgb(38, 38, 114); 
     color: rgb(219, 219, 224);
@@ -96,6 +102,7 @@ h1{
 
 
 .movie-container{
+    padding: 10px 0;
     width : 25%;
     border: 2px solid rgb(38, 38, 114);
     display: flex;
