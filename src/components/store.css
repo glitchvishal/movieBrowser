@@ -1,0 +1,26 @@
+.card{
+    border: solid 1px  rgb(38, 38, 114);;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width : 20rem;
+}
+
+.card>img{
+    height: 17rem;
+    width:  12rem;
+    border-radius: 5px;
+}
+
+.card>h2{
+    padding:0 25px;
+    /* width: 60%; */
+}
+
+.card:hover{
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px  rgb(38, 38, 114);
+}
