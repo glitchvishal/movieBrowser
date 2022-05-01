@@ -63,9 +63,11 @@ h1{
 }
 
 .movie{
-    /* border: solid black 2px; */
+    height: 100vh;
     background-color: rgb(219, 219, 224);
-    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .movie .movie-container>p{
@@ -77,11 +79,11 @@ h1{
 .movie .movie-container >img{
     width: auto;
     height: 20vw;
-    margin : 30px 0;
+    /* margin : 30px 0; */
 }
 
 .movie .movie-container>button{
-    width: 25%;
+    width: 50%;
     height : 1.8rem;
     background-color:  rgb(38, 38, 114); 
     color: rgb(219, 219, 224);
@@ -94,6 +96,7 @@ h1{
 
 
 .movie-container{
+    width : 25%;
     border: 2px solid rgb(38, 38, 114);
     display: flex;
     flex-direction: column;
